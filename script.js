@@ -1,4 +1,4 @@
-// Set the date we're counting down to (2026-01-05 format)
+ Set the date we're counting down (2025-12-19)to (2026-01-05 format)
 const targetDate = new Date('2026-01-05 T00:00:00').getTime(); // Replace with her birthday
 
 function updateCountdown() {
@@ -20,7 +20,8 @@ function updateCountdown() {
     }
 }
 
-// Update every second
+
+ Update every second
 setInterval(updateCountdown, 1000);
 updateCountdown(); // Initial call
-Add main page 
+
